@@ -1,0 +1,27 @@
+{
+  "name": "electron-calc",
+  "version": "1.0.0",
+  "description": "Simple Calculator using Electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sojiro/electron-calc.git"
+  },
+  "keywords": [
+    "Electron",
+    "NodeJS",
+    "JavaScript"
+  ],
+  "author": "sojiro@ashokma.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sojiro/electron-calc/issues"
+  },
+  "homepage": "https://github.com/Sojiro/electron-calc#readme",
+  "devDependencies": {
+    "electron": "^5.0.6"
+  }
+}
