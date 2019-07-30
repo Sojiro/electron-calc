@@ -1,4 +1,51 @@
 <head>
     <title>Simple Calculator</title>
+    <style>
+        button {
+            box-sizing: border-box;
+            border: 1px solid transparent;
+            transition: box-shadow 0.5s;
+            font-size: 50px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            box-shadow: 5px 5px 5px lightblue;
+        }
+
+        .numpad {
+            height: 150px;
+            width: 150px;
+        }
+    </style>
 </head>
-<h1>Hello World!</h1>
+
+<body>
+    <center>
+        <section>
+            <h1 class="title">Simple Calculator</h1>
+            <input class='result' type="number" id="result" placeholder="0.0">
+            <table class="numpad">
+                <tr>
+                    <td><button value="9" type="button" onclick="clicked(9);">9</button></td>
+                    <td><button value="8" type="button" onclick="clicked(8);">8</button></td>
+                    <td><button value="7" type="button" onclick="clicked(7);">7</button></td>
+                </tr>
+                <tr>
+                    <td><button value="6" type="button" onclick="clicked(6);">6</button></td>
+                    <td><button value="5" type="button" onclick="clicked(5);">5</button></td>
+                    <td><button value="4" type="button" onclick="clicked(4);">4</button></td>
+                </tr>
+                <tr>
+                    <td> <button value="3" type="button" onclick="clicked(3);">3</button></td>
+                    <td> <button value="2" type="button" onclick="clicked(2);">2</button></td>
+                    <td> <button value="1" type="button" onclick="clicked(1);">1</button></td>
+                </tr>
+                <tr>
+                    <td><button value="." type="button" onclick="clicked('.');">.</button></td>
+                    <td><button value="0" type="button" onclick="clicked(0);">0</button></td>
+                    <td><button value="=" type="button" onclick="clicked('=');">=</button></td>
+                    </div>
+        </section>
+    </center>
+</body>
