@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/Sojiro/electron-calc#readme",
   "devDependencies": {
-    "electron": "^5.0.6"
+    "electron": "^7.2.4"
   }
 }
